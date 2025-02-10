@@ -4,9 +4,13 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f9e3e3;
+    /*background-color: #f9e3e3;*/
     font-family: 'Arial', sans-serif;
     flex-direction: column;
+    background-image: url('./images/pic1.jpg');
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center;
+    background-attachment: fixed;
   }
   
   .container {
