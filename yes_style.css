@@ -1,11 +1,12 @@
 body {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     height: 100vh;
     margin: 0;
     background-color: #f9e3e3;
     font-family: 'Arial', sans-serif;
+    padding-top: 100px
 }
 
 .container {
